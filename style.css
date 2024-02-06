@@ -1,0 +1,24 @@
+a:link {
+    color: yellow;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+a:hover {
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+a:active {
+
+    
+    text-decoration: line-through;
+}
+
+h1 ~ span {
+    color: green;
+    font-size: 50px;
+}
